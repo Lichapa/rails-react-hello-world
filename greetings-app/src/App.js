@@ -1,4 +1,3 @@
-import React, { component } from "react";
 import './App.css';
 import GreetingsContainer from "./components/GreetingsContainer";
 
