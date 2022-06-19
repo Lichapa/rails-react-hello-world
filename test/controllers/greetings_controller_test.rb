@@ -5,19 +5,4 @@ class GreetingsControllerTest < ActionDispatch::IntegrationTest
     get greetings_index_url
     assert_response :success
   end
-
-  test 'should get create' do
-    get greetings_create_url
-    assert_response :success
-  end
-
-  test 'should get update' do
-    get greetings_update_url
-    assert_response :success
-  end
-
-  test 'should get destroy' do
-    get greetings_destroy_url
-    assert_response :success
-  end
 end

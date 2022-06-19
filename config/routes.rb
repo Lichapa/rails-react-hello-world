@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  scope '/api/v1' do
-    resources :greetings
+  namespace :api do
+    namespace :v1 do
+      resources :greetings
+    end
   end
+
+
+  root 'greetings#index'
+  
 end
